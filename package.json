@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "postinstall": "echo 'Skipping Chromium download'",
     "start": "node index.js"
   },
   "dependencies": {
-    "puppeteer": "^21.3.8"
+    "puppeteer-core": "^21.3.8",
+    "chrome-aws-lambda": "^10.1.0"
   }
 }
